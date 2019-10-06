@@ -110,6 +110,36 @@ func (c *MainController) Post() {
 		return
 	}
 	/*4.return login page*/
-	c.Ctx.WriteString("Register success!")
+	// c.Ctx.WriteString("Register success!")
+	c.TplName = "login.html"
 
+}
+
+func (c *MainController) ShowLogin() {
+	c.TplName = "login.html"
+}
+
+func (c *MainController) HandleLogin() {
+	// c.Ctx.WriteString("post response!")
+	/*1.Get login data*/
+	userName := c.GetString("userName")
+	pwd := c.GetString("pwd")
+	/*2.Check login data*/
+	if "" == userName || "" == pwd {
+		beego.Info("Login input data error!")
+		c.TplName = "login.html"
+		return
+	}
+	/*3.Check login password*/
+	o := orm.NewOrm()
+	user := models.User{}
+	user.Name = userName
+	if nil != o.Read(&user, "Name") {
+		beego.Info("Find user fail!")
+		c.TplName = "login.html"
+		return
+	}
+	/*4.Jump to the designed page*/
+	// c.TplName = ""
+	c.Ctx.WriteString("Login success!")
 }
