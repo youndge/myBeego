@@ -111,7 +111,9 @@ func (c *MainController) Post() {
 	}
 	/*4.return login page*/
 	// c.Ctx.WriteString("Register success!")
-	c.TplName = "login.html"
+	c.TplName = "login.html
+	
+	  "
 
 }
 
