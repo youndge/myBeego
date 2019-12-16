@@ -1,0 +1,122 @@
+/*------------------------------------------------------------------
+
+[OM CLOUD]
+
+[Master Stylesheet]
+
+Project:	OM CLOUD PLATFORM
+Version:	1.1
+Last change:	[INITIAL RELEASE]
+Assigned to:	OM CLOUD PLATFORM (Surat,IN)
+Primary use:	Admin Side Used Template. 
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Typography]
+
+Body copy			:		13px 'Open Sans',sans-serif;
+Headers				:		14px 'Open Sans',sans-serif;
+Input, textarea		:	    14px 'Open Sans',sans-serif;
+
+
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Color codes]
+
+Background   :	 #e5e6e6 (Light Gray)
+Header       :	 #72D0EB (Light Blue)
+Sidebar      :	 #2A3542 (Black)
+Footer       :	 #5B6E84 (dark Gray)
+
+a (standard):	#428BCA (Light blue)
+a (visited,hover,Activated):	#2A3542 (light Black)
+
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body (Basic CSS)
+2. Signin / Loguin Page CSS
+3. Sidebar
+4. Header
+5. Chart & Graph / Task  / Badge
+6. Timeline / Revenue / User info /Followers /Calender / Weather / Font Awesome
+7. Mailing Pages (Mail inbox / Mail Display) 
+8. Error Pages (404/500) 
+9. Profile
+10. Table
+11. General Page /  carousel / gritter /form  / Slider / Switch / Tag Input / Date picker / CKEditor / Widget
+12. Search Page
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[1. BODY (Basic CSS)]
+*/
+
+.tooltips {
+	background-color: #FFF;
+	padding: 6px;
+	border-radius: 9px;
+	color: #1b809d;
+}
+
+/*------------------------------------------------------------------
+[4. Header]
+*/
+
+#main-content {
+	margin-left: 210px;
+}
+
+.header,.footer {
+	min-height: 60px;
+	padding: 0 15px;
+}
+
+.header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 1002;
+}
+
+.white-bg {
+	background: #72d0eb;
+	border-bottom: 1px solid #a0d9ea;
+}
+
+a.logo {
+	font-size: 21px;
+	color: #2e2e2e;
+	float: left;
+	margin-top: 15px;
+	text-transform: uppercase;
+}
+
+a.logo:hover,a.logo:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+a.logo span {
+	color: #3a97b2;
+}
+
+
+
+
+/*--sidebar toggle---*/
+
+.sidebar-toggle-box {
+	float: left;
+	padding-right: 15px;
+	margin-top: 15px;
+}
+
+.sidebar-toggle-box .fa-bars {
+	cursor: pointer;
+	display: inline-block;
+	font-size: 20px;
+}
