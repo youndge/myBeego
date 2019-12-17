@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <title>EditMib</title>
         <!-- BEGIN STYLESHEET --> 
+		<link href="../048/css/bootstrap-reset.css" rel="stylesheet"><!-- BOOTSTRAP CSS -->
+
         <link href="../static/css/bootstrap.min.css" rel="stylesheet"><!-- BOOTSTRAP CSS -->
-        <link href="../048/assets/font-awesome/css/font-awesome.css" rel="stylesheet"><!-- FONT AWESOME ICON STYLESHEET -->
+        <link href="../static/assets/font-awesome/css/font-awesome.css" rel="stylesheet"><!-- FONT AWESOME ICON STYLESHEET -->
         <link href="../static/css/style.css" rel="stylesheet"><!-- THEME BASIC CSS -->
    
         <!-- END STYLESHEET --> 
@@ -41,7 +43,7 @@
                             </i>
                             <span>MIB</span>
                             <span class="label label-success span-sidebar">
-                            4
+                            5
                             </span>
                         </a>
                 <ul class="sub">
@@ -65,13 +67,411 @@
                     CMD
                     </a>
                 </li>
+                <li>
+                    <a href="language_switch_bar.html">
+                        CMD_PM
+                    </a>
+                </li>
               </ul>
             </li>
                </ul>
             </div>
         </aside>
-		<!-- END SIDEBAR -->     
+        <!-- END SIDEBAR --> 
+      <!-- BEGIN MAIN CONTENT -->
+      
+      <section id="main-content">
+            <!-- BEGIN WRAPPER  -->
+            <section class="wrapper">
+              <!-- BEGIN ROW  -->
+              <div class="row">
+                <div class="col-lg-12">
+                  <section class="panel">
+                    <header class="panel-heading">
+                      <span class="label label-primary">
+                        Responsive table
+                      </span>
+                      <span class="tools pull-right">
+                        <a href="javascript:;" class="fa fa-chevron-down">
+                        </a>
+                        <a href="javascript:;" class="fa fa-times">
+                        </a>
+                      </span>
+                    </header>
+                    <div class="panel-body">
+                      <section id="unseen">
+                        <table class="table table-bordered table-striped table-condensed">
+                          <thead>
+                            <tr>
+                              <th>
+                                Code
+                              </th>
+                              <th>
+                                Company
+                              </th>
+                              <th class="numeric">
+                                Price
+                              </th>
+                              <th class="numeric">
+                                Change
+                              </th>
+                              <th class="numeric hidden-phone">
+                                Change %
+                              </th>
+                              <th class="numeric hidden-phone">
+                                Open
+                              </th>
+                              <th class="numeric hidden-phone">
+                                High
+                              </th>
+                              <th class="numeric hidden-phone">
+                                Low
+                              </th>
+                              <th class="numeric">
+                                Volume
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>
+                                AAC
+                              </td>
+                              <td>
+                                AUSTRALIAN AGRICULTURAL COMPANY LIMITED.
+                              </td>
+                              <td class="numeric">
+                                $1.38
+                              </td>
+                              <td class="numeric">
+                                -0.01
+                              </td>
+                              <td class="numeric hidden-phone">
+                                -0.36%
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $1.39
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $1.39
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $1.38
+                              </td>
+                              <td class="numeric">
+                                9,395
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                AAD
+                              </td>
+                              <td>
+                                ARDENT LEISURE GROUP
+                              </td>
+                              <td class="numeric">
+                                $1.15
+                              </td>
+                              <td class="numeric">
+                                +0.02
+                              </td>
+                              <td class="numeric hidden-phone">
+                                1.32%
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $1.14
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $1.15
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $1.13
+                              </td>
+                              <td class="numeric">
+                                56,431
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                AAX
+                              </td>
+                              <td>
+                                AUSENCO LIMITED
+                              </td>
+                              <td class="numeric">
+                                $4.00
+                              </td>
+                              <td class="numeric">
+                                -0.04
+                              </td>
+                              <td class="numeric hidden-phone">
+                                -0.99%
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $4.01
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $4.05
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $4.00
+                              </td>
+                              <td class="numeric">
+                                90,641
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                ABC
+                              </td>
+                              <td>
+                                ADELAIDE BRIGHTON LIMITED
+                              </td>
+                              <td class="numeric">
+                                $3.00
+                              </td>
+                              <td class="numeric">
+                                +0.06
+                              </td>
+                              <td class="numeric hidden-phone">
+                                2.04%
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $2.98
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $3.00
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $2.96
+                              </td>
+                              <td class="numeric">
+                                862,518
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                ABP
+                              </td>
+                              <td>
+                                ABACUS PROPERTY GROUP
+                              </td>
+                              <td class="numeric">
+                                $1.91
+                              </td>
+                              <td class="numeric">
+                                0.00
+                              </td>
+                              <td class="numeric hidden-phone">
+                                0.00%
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $1.92
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $1.93
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $1.90
+                              </td>
+                              <td class="numeric">
+                                595,701
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                ABY
+                              </td>
+                              <td>
+                                ADITYA BIRLA MINERALS LIMITED
+                              </td>
+                              <td class="numeric">
+                                $0.77
+                              </td>
+                              <td class="numeric">
+                                +0.02
+                              </td>
+                              <td class="numeric hidden-phone">
+                                2.00%
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $0.76
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $0.77
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $0.76
+                              </td>
+                              <td class="numeric">
+                                54,567
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                ACR
+                              </td>
+                              <td>
+                                ACRUX LIMITED
+                              </td>
+                              <td class="numeric">
+                                $3.71
+                              </td>
+                              <td class="numeric">
+                                +0.01
+                              </td>
+                              <td class="numeric hidden-phone">
+                                0.14%
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $3.70
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $3.72
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $3.68
+                              </td>
+                              <td class="numeric">
+                                191,373
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                ADU
+                              </td>
+                              <td>
+                                ADAMUS RESOURCES LIMITED
+                              </td>
+                              <td class="numeric">
+                                $0.72
+                              </td>
+                              <td class="numeric">
+                                0.00
+                              </td>
+                              <td class="numeric hidden-phone">
+                                0.00%
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $0.73
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $0.74
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $0.72
+                              </td>
+                              <td class="numeric">
+                                8,602,291
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                AGG
+                              </td>
+                              <td>
+                                ANGLOGOLD ASHANTI LIMITED
+                              </td>
+                              <td class="numeric">
+                                $7.81
+                              </td>
+                              <td class="numeric">
+                                -0.22
+                              </td>
+                              <td class="numeric hidden-phone">
+                                -2.74%
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $7.82
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $7.82
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $7.81
+                              </td>
+                              <td class="numeric">
+                                148
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                AGK
+                              </td>
+                              <td>
+                                AGL ENERGY LIMITED
+                              </td>
+                              <td class="numeric">
+                                $13.82
+                              </td>
+                              <td class="numeric">
+                                +0.02
+                              </td>
+                              <td class="numeric hidden-phone">
+                                0.14%
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $13.83
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $13.83
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $13.67
+                              </td>
+                              <td class="numeric">
+                                846,403
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                AGO
+                              </td>
+                              <td>
+                                ATLAS IRON LIMITED
+                              </td>
+                              <td class="numeric">
+                                $3.17
+                              </td>
+                              <td class="numeric">
+                                -0.02
+                              </td>
+                              <td class="numeric hidden-phone">
+                                -0.47%
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $3.11
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $3.22
+                              </td>
+                              <td class="numeric hidden-phone">
+                                $3.10
+                              </td>
+                              <td class="numeric">
+                                5,416,303
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </section>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <!-- END ROW  -->
+
+            </section>
+            <!-- END WRAPPER  -->
+          </section>
+          <!-- END MAIN CONTENT -->    
 </section>
     <!-- END SECTION -->
+        <!-- BEGIN JS -->
+        <script src="../static/js/jquery-1.8.3.min.js" ></script><!-- BASIC JQUERY 1.8.3 LIB. JS -->
+        <script src="../static/js/jquery.dcjqaccordion.2.7.js"></script><!-- ACCORDIN JS -->
+        <script src="../static/js/common-scripts.js"></script><!-- BASIC COMMON JS -->
+        <!-- END JS -->
+    
 </body>
 </html>
